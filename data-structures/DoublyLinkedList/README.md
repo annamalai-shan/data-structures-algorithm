@@ -2,15 +2,31 @@
 
 ## Definition
 
+A doubly linked list is a linear data structure where each node stores a value, a reference to the next node, and a reference to the previous node. Traversal can proceed in both directions.
+
 ## Internal Representation
 
 ```txt
-
+null <- [10] <-> [20] <-> [30] <-> [40] -> null
+         prev next  prev next  prev next  prev next
+head --------------------------------^
+tail ----------------------------------------^
 ```
 
 ## Key Characteristics
 
+- Bidirectional traversal from head or tail
+- O(1) insertion and deletion at both ends (with tail pointer)
+- Two pointers per node increase memory overhead
+- O(n) random access by index
+- Easier deletion of a known node than in a singly linked list
+- Common building block for LRU cache and deque implementations
+
 ## What Problem Does It Solve?
+
+- Efficient removal of nodes when a pointer to the node is known
+- Forward and backward navigation without re-scanning
+- Implementing structures that need O(1) operations at both ends
 
 ## Use Cases
 
@@ -45,4 +61,12 @@
 
 ## Related Algorithms
 
+- LRU Cache
+- Design Browser History
+- Flatten a Multilevel Doubly Linked List
+
 ## Related Patterns
+
+- Two Pointers
+- Dummy Head Node
+- Cache Eviction (LRU)

@@ -2,15 +2,35 @@
 
 ## Definition
 
+A hash map (hash table) is an associative array that maps keys to values. It uses a hash function to compute a bucket index for each key, enabling efficient key-value storage and retrieval on average.
+
 ## Internal Representation
 
 ```txt
-
+Keys    :  "name"   "age"    "city"
+            |        |        |
+Hash    :   h1       h2       h3
+            v        v        v
+Buckets :  [0]      [1]      [2]
+            |        |        |
+           null   (k,v)    (k,v) -> (k,v)
 ```
 
 ## Key Characteristics
 
+- Key-value pair storage
+- Hash function distributes keys across buckets
+- Average O(1) get, put, and remove
+- Keys are unique; values may repeat
+- Collision resolution via chaining or open addressing
+- Dynamic resizing when load factor exceeds a threshold
+
 ## What Problem Does It Solve?
+
+- Fast key-based lookup and updates
+- Counting and grouping by key
+- Caching computed results
+- Building indexes over data
 
 ## Use Cases
 
@@ -43,4 +63,13 @@
 
 ## Related Algorithms
 
+- Two Sum
+- Group Anagrams
+- Subarray Sum Equals K
+- LRU Cache
+
 ## Related Patterns
+
+- Hash Table
+- Frequency Counting
+- Prefix Sum with Hash Map
