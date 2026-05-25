@@ -2,16 +2,16 @@
 
 | # | Data Structure | Category | Internal Implementation | What Problem Does It Solve? | Space Complexity | Related Algorithms |
 |---|:---|:---:|:---|:---|:---:|:---:|
-| 1 | [**Array**](./data-structures/Array.md) | Linear | Contiguous Memory | Fast indexed and random access | O(n) | |
-| 2 | [**String**](./data-structures/String.md) | Linear | Character Array | Efficient text storage and manipulation | O(n) | |
-| 3 | [**Singly Linked List**](./data-structures/SinglyLinkedList.md) | Linear | Nodes with Next Pointer | Efficient insertion and deletion operations | O(n) | |
-| 4 | [**Doubly Linked List**](./data-structures/DoublyLinkedList.md) | Linear | Nodes with Previous and Next Pointer | Bidirectional traversal and efficient deletion | O(n) | |
-| 5 | [**Stack**](./data-structures/Stack.md) | Linear | Array or Linked List | Last In First Out processing | O(n) | |
-| 6 | [**Queue**](./data-structures/Queue.md) | Linear | Linked List or Circular Buffer | First In First Out processing | O(n) | |
-| 7 | [**Double Ended Queue**](./data-structures/DoubleEndedQueue.md) | Linear | Doubly Linked List or Circular Buffer | Efficient insertion and deletion from both ends | O(n) | |
-| 8 | [**Monotonic Stack**](./data-structures/MonotonicStack.md) | Linear | Stack with Monotonic Ordering | Efficient next greater/smaller element processing | O(n) | |
-| 9 | [**Hash Map**](./data-structures/HashMap.md) | Non-linear | Hash Table with Buckets | Fast key-value lookup | O(n) | |
-| 10 | [**Hash Set**](./data-structures/HashSet.md) | Non-linear | Hash Table | Fast uniqueness checking | O(n) | |
+| 1 | [**Array**](./data-structures/Array/README.md) | Linear | Contiguous Memory | Fast indexed and random access | O(n) | |
+| 2 | [**String**](./data-structures/String/README.md) | Linear | Character Array | Efficient text storage and manipulation | O(n) | |
+| 3 | [**Singly Linked List**](./data-structures/SinglyLinkedList/README.md) | Linear | Nodes with Next Pointer | Efficient insertion and deletion operations | O(n) | |
+| 4 | [**Doubly Linked List**](./data-structures/DoublyLinkedList/README.md) | Linear | Nodes with Previous and Next Pointer | Bidirectional traversal and efficient deletion | O(n) | |
+| 5 | [**Stack**](./data-structures/Stack/README.md) | Linear | Array or Linked List | Last In First Out processing | O(n) | |
+| 6 | [**Queue**](./data-structures/Queue/README.md) | Linear | Linked List or Circular Buffer | First In First Out processing | O(n) | |
+| 7 | [**Double Ended Queue**](./data-structures/DoubleEndedQueue/README.md) | Linear | Doubly Linked List or Circular Buffer | Efficient insertion and deletion from both ends | O(n) | |
+| 8 | [**Monotonic Stack**](./data-structures/MonotonicStack/README.md) | Linear | Stack with Monotonic Ordering | Efficient next greater/smaller element processing | O(n) | |
+| 9 | [**Hash Map**](./data-structures/HashMap/README.md) | Non-linear | Hash Table with Buckets | Fast key-value lookup | O(n) | |
+| 10 | [**Hash Set**](./data-structures/HashSet/README.md) | Non-linear | Hash Table | Fast uniqueness checking | O(n) | |
 | 11 | [**Heap and Priority Queue**](./data-structures/HeapAndPriorityQueue.md) | Non-linear | Binary Heap implemented using Array | Fast minimum or maximum retrieval | O(n) | |
 | 12 | [**Binary Tree**](./data-structures/BinaryTree.md) | Non-linear | Node-Based Tree Structure | Hierarchical data representation | O(n) | |
 | 13 | [**Binary Search Tree**](./data-structures/BinarySearchTree.md) | Non-linear | Ordered Binary Tree | Efficient ordered searching and sorting | O(n) | |

@@ -5,23 +5,20 @@
 A string is a linear data structure that stores a sequence of characters.
 
 Strings are commonly used for:
+
 - text processing
 - pattern matching
 - parsing
 - searching
 
----
-
-# Internal Representation
+## Internal Representation
 
 ```txt
 Index :  0    1    2    3    4
 Value : [H]  [E]  [L]  [L]  [O]
 ```
 
----
-
-# Key Characteristics
+## Key Characteristics
 
 - Sequence of characters
 - Indexed access
@@ -29,9 +26,7 @@ Value : [H]  [E]  [L]  [L]  [O]
 - Supports traversal and substring operations
 - Frequently used in text manipulation
 
----
-
-# What Problem Does It Solve?
+## What Problem Does It Solve?
 
 - Text storage
 - String searching
@@ -39,9 +34,14 @@ Value : [H]  [E]  [L]  [L]  [O]
 - Parsing and tokenization
 - Data serialization
 
----
+## Use Cases
 
-# Time Complexity Table
+- Text processing
+- Pattern matching
+- Data validation
+- Text formatting
+
+## Time Complexity Table
 
 | Operation | Average Case | Worst Case | Amortized Case |
 | :-------- | :----------: | :--------: | -------------: |
@@ -52,18 +52,26 @@ Value : [H]  [E]  [L]  [L]  [O]
 | Update | O(n) | O(n) | O(n) |
 | Traverse | O(n) | O(n) | O(n) |
 
----
+## Space Complexity
 
-# Related Algorithms
+- O(n)
+
+## Common Operations
+
+- String reversal
+- Palindrome check
+- Substring search
+- Character frequency
+- String manipulation
+
+## Related Algorithms
 
 - Knuth-Morris-Pratt Algorithm
 - Rabin-Karp Algorithm
 - Z Algorithm
-- Manacher’s Algorithm
+- Manacher's Algorithm
 
----
-
-# Related Patterns
+## Related Patterns
 
 - Sliding Window
 - Two Pointers

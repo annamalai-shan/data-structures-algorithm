@@ -6,35 +6,34 @@ An array is a linear data structure that stores elements in contiguous memory lo
 
 Since elements are stored sequentially, elements can be accessed directly using their index, providing constant-time access.
 
----
-
-# Internal Representation
+## Internal Representation
 
 ```txt
 Index :  0    1    2    3
 Value : [10] [20] [30] [40]
 ```
 
----
-
-# Key Characteristics
+## Key Characteristics
 
 - Contiguous memory allocation
 - Fast indexed access
 - Ordered collection
 - Expensive middle insertion/deletion
 
----
-
-# What Problem Does It Solve?
+## What Problem Does It Solve?
 
 - Fast random access
 - Sequential data processing
 - Efficient traversal
 
----
+## Use Cases
 
-# Time Complexity Table
+- Storing collections of similar data
+- Implementing other data structures
+- Matrix operations
+- Buffer storage
+
+## Time Complexity Table
 
 | Operation | Average Case | Worst Case | Amortized Case |
 | :-------- | :----------: | :--------: | -------------: |
@@ -45,17 +44,25 @@ Value : [10] [20] [30] [40]
 | Update | O(1) | O(1) | O(1) |
 | Traverse | O(n) | O(n) | O(n) |
 
----
+## Space Complexity
 
-# Related Algorithms
+- O(n)
+
+## Common Operations
+
+- Access element by index
+- Search for an element
+- Insert element at position
+- Delete element at position
+- Traverse all elements
+
+## Related Algorithms
 
 - Binary Search
-- Kadane’s Algorithm
+- Kadane's Algorithm
 - Merge Intervals
 
----
-
-# Related Patterns
+## Related Patterns
 
 - Two Pointers
 - Sliding Window
